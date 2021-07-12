@@ -4,7 +4,7 @@ const List = () => {
     return (
         <div>
             <h1>
-                List
+                List for
             </h1>
         </div>
     )
