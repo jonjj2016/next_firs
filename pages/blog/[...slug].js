@@ -6,7 +6,10 @@ const Slug = () => {
     console.log(query);
     return (
         <div>
-            The Blog Posts
+            The Blog Posts query 
+            <ul>
+                {query.slug&&query.slug.map((i,index)=><li key={index}>{i}</li>)}
+            </ul>
         </div>
     )
 }

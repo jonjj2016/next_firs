@@ -2,11 +2,13 @@ import React from 'react'
 import {useRouter} from 'next/router';
 
 const ClientProject = () => {
-    const {query} = useRouter();
-    console.log("787878erwhbr",query);
+    const {query:{clientprojectid,id}} = useRouter();
+    console.log("787878erwhbr");
     return (
         <div>
-            ClientProject
+            ClientProject 
+            id: {id} {' '}
+            clientprojectid: {clientprojectid}
         </div>
     )
 }

@@ -7,7 +7,8 @@ const ListAllClientProjects = () => {
     return (
         <div>
             <h2>
-            ListAllClientProjects
+            ListAllClientProjects {query.id}
+            
             </h2>
         </div>
     )
